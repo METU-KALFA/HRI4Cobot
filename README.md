@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the implementation of the [Collaborative Robotic Manipulators: A New Platform for Human-Robot Interaction](#) by [Bolat B.](#burakbolat.github.io), [Terzioglu Y.](#https://yunusterzioglu.com/) & [Sahin E.](#https://romer.metu.edu.tr/erol/) (2024).
+This repository contains the implementation of the [Collaborative Robotic Manipulators: A New Platform for Human-Robot Interaction](#) by [Bolat B.](https://burakbolat.github.io), [Terzioglu Y.](https://yunusterzioglu.com/) & [Sahin E.](https://romer.metu.edu.tr/erol/) (2024).
 
 ## Table of Contents
 
@@ -11,6 +11,7 @@ This repository contains the implementation of the [Collaborative Robotic Manipu
 - [Installation](#installation)
 - [Usage](#usage)
 - [Acknowledgments](#acknowledgments)
+- [To-Do](#to-do)
 - [Contact](#contact)
 
 ## Abstract
@@ -18,12 +19,13 @@ Collaborative robotic manipulators (a.k.a Cobots) are rapidly being deployed on 
 
 ## Requirements
 
-
-
 ## Installation
 
 ## Usage
 
 ## Acknowledgments
+
+## To-Do
+[ ] Add Panda (Franka Emika 3) cobot support
 
 ## Contact

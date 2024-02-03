@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/kovan-robot/ur_control/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/kovan-robot/ur_control/src/Universal_Robots_ROS_Driver/controller_stopper/include/**",
+        "/home/kovan-robot/ur_control/src/Universal_Robots_ROS_Driver/ur_calibration/include/**",
+        "/home/kovan-robot/ur_control/src/fmauch_universal_robot/ur_kinematics/include/**",
+        "/home/kovan-robot/ur_control/src/Universal_Robots_ROS_Driver/ur_robot_driver/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

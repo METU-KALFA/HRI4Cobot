@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/kovan-robot/animation/devel/lib/python3/dist-packages",
+        "/home/kovan-robot/ur_control/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/kovan-robot/animation/devel/lib/python3/dist-packages",
+        "/home/kovan-robot/ur_control/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}
