@@ -1,5 +1,5 @@
 # Human-Robot Interaction (HRI) Paper
-
+This repo is under construction. Nevertheless, code refactoring is nearly done. In the current version, code is usable with ros controllers velocity controller.
 ## Overview
 
 This repository contains the implementation of the [Collaborative Robotic Manipulators: A New Platform for Human-Robot Interaction](#) by [Bolat B.](https://burakbolat.github.io), [Terzioglu Y.](https://yunusterzioglu.com/) & [Sahin E.](https://romer.metu.edu.tr/erol/) (2024).
