@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-vels = np.load("/home/kovan3/ur5_ws/src/error_data_2.npy")
+vels = np.load("breathe_data.npy")
 
 # plt.plot(vels[:,0])
 # plt.plot(vels[:,1])
@@ -23,6 +23,6 @@ vels = np.load("/home/kovan3/ur5_ws/src/error_data_2.npy")
 #         0.0037147237823418333, 0.002837426374215357, 0.0021472441754255556, 
 #         0.0016085180924106934, 0.0011913883859058227, 0.000871112900045046, 
 #         0.0006273850763798272, 0.00044368593276999935])
-
-plt.plot(vels[0])
+# np.save("breathe_data.npy", vels[:vels.shape[0]//2])
+plt.plot(vels)
 plt.show()

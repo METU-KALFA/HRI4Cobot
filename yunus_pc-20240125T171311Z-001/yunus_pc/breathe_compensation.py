@@ -21,7 +21,7 @@ config = {
     "period" : 3,
     "rate" : 200,
     "compansete_after": 1,
-    "exp_time" : 600.0,
+    "exp_time" : 3.0,
     "breathe_vector" : [sqrt(2),sqrt(2),0] # This is in flange frame
 }
 
@@ -128,7 +128,7 @@ if __name__== "__main__":
     bps = 1.0/period
     i = 0
 
-    breathe_body = False
+    breathe_body = True
 
     comp = Compensator()
     comp.interrupt_index = int(config["interrupt_index"] * int(r/bps))  # At %65 of the breathing, take the control
@@ -202,6 +202,7 @@ if __name__== "__main__":
 
             if breathe_body:
                 joint_vels = np.dot(pinv_jacobian[:3], vel)
+                print(vel.shape, pinv_jacobian[:3].shape)
                 joint_vels = np.concatenate((joint_vels, [0,0,0]))
             else:
                 joint_vels = np.dot(pinv_jacobian, vel)
